@@ -1,0 +1,6 @@
+{
+  "name": "Delicias del Ayer",
+  "description": "Pastelería especializada en pasteles fríos y calientes, con sabores que evocan recuerdos del pasado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

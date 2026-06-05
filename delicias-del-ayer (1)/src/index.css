@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primrose: #F297A0;
+  --color-pinktone: #F9D0CE;
+  --color-lime: #B6BB79;
+  --color-yucca: #F3EBD8;
+  --color-cocoa: #5D544F;
+  --color-cocoa-dark: #4A3E3D;
+  --font-display: "Fredoka", sans-serif;
+  --font-sans: "Quicksand", sans-serif;
+}
+
+/* Custom scrollbars or smooth scroll settings for premium look */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F3EBD8;
+}
+::-webkit-scrollbar-thumb {
+  background: #F297A0;
+  border-radius: 9999px;
+  border: 2px solid #F3EBD8;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-section {
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Rounded elements default shadow consistent with guidelines */
+.custom-shadow {
+  box-shadow: 0 10px 30px rgba(93, 84, 79, 0.08);
+}
+.custom-shadow-lg {
+  box-shadow: 0 20px 40px rgba(93, 84, 79, 0.12);
+}
